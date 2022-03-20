@@ -1,3 +1,4 @@
+``Python
 538. 把二叉搜索树转换为累加树
 思路：把dict类型作为参数传递，则可以使得实参实时改变，也就是说在递归中更深一层的操作可以影响到上一层
 # Definition for a binary tree node.
@@ -20,3 +21,4 @@ class Solution:
         sum_dict = {'sum': 0}
         dfs(root, sum_dict)
         return root
+``
