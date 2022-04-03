@@ -11,7 +11,7 @@ class Solution:
                 surplus[i] += surplus[i + 1]    #后缀和，找后面可以加最多油的出发点
         return surplus.index(max(surplus))
             
-#卡哥代码，遍历一次，优秀
+#卡哥代码，遍历一次，优秀。不过实际上没有快多少。。。
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         start = 0
